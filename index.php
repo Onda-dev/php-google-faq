@@ -63,6 +63,32 @@ $faqs = [
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <div class="logo-box">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="logo">
+            <h1>Privacy e termini</h1>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Introduzione</a>
+                </li>
+                <li>
+                    <a href="#">Norme sulla privacy</a>
+                </li>
+                <li>
+                    <a href="#">Termini di servizio</a>
+                </li>
+                <li>
+                    <a href="#">Tecnologie</a>
+                </li>
+                <li>
+                    <a href="#">Domande frequenti</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
     <main>
         <div class="container">
             <ul>

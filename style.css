@@ -11,6 +11,11 @@ ul {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* COMMONS */
 .container {
     max-width: 62.5rem;
@@ -31,7 +36,44 @@ p {
 h2 {
     line-height: 2rem;
     font-weight: 400;
+    color: #3C4043;
 }
+
+h1 {
+    display: inline;
+    vertical-align: middle;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: grey;
+}
+
+nav a {
+    color: grey;
+}
+
+/* HEADER */
+header {
+    padding: 1.875rem 0rem 0.8rem 1.875rem;
+}
+.logo-box {
+    max-width: 25rem;
+}
+
+img {
+    width: 20%;
+    vertical-align: middle;
+}
+nav ul {
+    margin-top: 1.875rem;
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 0;
+}
+
+nav ul li {
+    margin-bottom: 0;
+}
+
 
 /* MAIN */
 main {
